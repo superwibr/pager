@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pager IN</title>
 
+	<link rel="stylesheet" href="style.css">
+
 	<script src="./src/peerjs.min.js"></script>
 	<script>
 		window.onload = function () {
@@ -144,7 +146,15 @@
 </head>
 
 <body>
+	<div id="receiver-id" style="font-weight: bold;" title="Copy this ID to the input on send.html.">ID:</div>
 
+	<label for="status">Status:</label>
+	<div id="status" class="status"></div>
+
+	<div class="message" id="message"></div>
+
+	<input type="text" id="sendMessageBox" placeholder="Enter a message..." autofocus="true" />
+	<button type="button" id="sendButton">Send</button>
 </body>
 
 </html>

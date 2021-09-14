@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+@import url('http://fonts.cdnfonts.com/css/menlo');
+
+html {
+	background-color: white;
+	margin: 5px;
+	padding: 0;
+	filter: invert(1);
+	overflow: hidden;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin:0;
+	background-color: white;
+	font-family: /*'Share Tech Mono',*/ 'Cascadia Code', 'Menlo', sans-serif;
+	display: flex;
+	flex-flow: column wrap;
+	overflow: hidden;
+	/* filter: invert(1); */
+}
+
+.status {
+	font-weight: bold;
+}
+
+.message {
+	height: 125px;
+	max-height: 125px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+	overflow: scroll;
+}
+
+.msgbox {
+	position: absolute;
+	bottom: 5px;
+	width: 99%;
+}
+
+.msg-time {
+	color: blue;
+}

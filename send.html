@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pager OUT</title>
 
+	<link rel="stylesheet" href="style.css">
+
 	<script src="./src/peerjs.min.js"></script>
 	<script>
 		window.onload = function () {
@@ -201,8 +203,10 @@
 	<div class="message" id="message"></div>
 	<br>
 
-	<input type="text" id="sendMessageBox" placeholder="Enter a message..." autofocus="true" />
-	<button type="button" id="sendButton">Send</button>
+	<div class="msgbox">
+		<input type="text" id="sendMessageBox" placeholder="Enter a message..." autofocus="true" />
+		<button type="button" id="sendButton">Send</button>
+	</div>
 </body>
 
 </html>
