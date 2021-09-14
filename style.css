@@ -19,7 +19,6 @@ body {
 	display: flex;
 	flex-flow: column wrap;
 	overflow: hidden;
-	/* filter: invert(1); */
 }
 
 .status {
@@ -35,8 +34,8 @@ body {
 }
 
 .msgbox {
-	position: absolute;
-	bottom: 5px;
+	/* position: absolute; */
+	/* bottom: 5px; */
 	width: 99%;
 }
 
